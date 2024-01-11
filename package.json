@@ -1,12 +1,10 @@
 {
-  "dependencies": {
-    "axios": "^1.6.5",
-    "express": "^4.18.2"
-  },
   "name": "express",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +18,8 @@
     "url": "https://github.com/FeatrizBrota/AdviceAPI/issues"
   },
   "homepage": "https://github.com/FeatrizBrota/AdviceAPI#readme",
-  "description": ""
+  "dependencies": {
+    "axios": "^1.6.5",
+    "express": "^4.18.2"
+  }
 }
